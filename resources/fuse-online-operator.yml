@@ -255,6 +255,7 @@ spec:
       name: docker-registry.default.svc:5000/fuse7/fuse-online-operator:1.4-4
     importPolicy:
       scheduled: true
+      insecure: true
     name: "1.7"
 ---
 apiVersion: v1
