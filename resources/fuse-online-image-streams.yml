@@ -17,6 +17,7 @@ items:
         name: docker-registry.default.svc:5000/fuse7/fuse-ignite-server:1.4-14
       importPolicy:
         scheduled: true
+        insecure: true
       name: "1.7"
 - apiVersion: v1
   kind: ImageStream
@@ -35,6 +36,7 @@ items:
         name: docker-registry.default.svc:5000/fuse7/fuse-ignite-ui:1.4-6
       importPolicy:
         scheduled: true
+        insecure: true
       name: "1.7"
 - apiVersion: v1
   kind: ImageStream
@@ -53,6 +55,7 @@ items:
         name: docker-registry.default.svc:5000/fuse7/fuse-ignite-meta:1.4-13
       importPolicy:
         scheduled: true
+        insecure: true
       name: "1.7"
 - apiVersion: v1
   kind: ImageStream
@@ -103,6 +106,7 @@ items:
         name: docker-registry.default.svc:5000/fuse7/fuse-ignite-s2i:1.4-13
       importPolicy:
         scheduled: true
+        insecure: true
       name: "1.7"
 - apiVersion: image.openshift.io/v1
   kind: ImageStream
@@ -122,6 +126,7 @@ items:
           name: docker-registry.default.svc:5000/fuse7-tech-preview/fuse-postgres-exporter:1.4-4
         importPolicy:
           scheduled: true
+          insecure: true
         name: "v0.4.7"
 - apiVersion: v1
   kind: ImageStream
