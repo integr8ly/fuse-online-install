@@ -145,4 +145,5 @@ items:
         name: docker-registry.default.svc:5000/fuse7-tech-preview/data-virtualization-server-rhel7:1.4-15
       importPolicy:
         scheduled: true
+        insecure: true
       name: "latest"
